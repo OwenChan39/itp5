@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>Company List</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-seo-dream.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+    <!-- Custom CSS for the background image -->
+
+    <style>
+        .main-banner {
+            background-image: url('assets/images/background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 100px 0;
+            text-align: center;
+            color: #fff;
+        }
+
+        /* Remove line above the h2 element */
+        .header-text h2 {
+            border-bottom: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <h4>SEO Dream <img src="assets/images/logo-icon.png" alt=""></h4>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#features">Features</a></li>
+                            <li class="scroll-to-section"><a href="#about">About Us</a></li>
+                            <li class="scroll-to-section"><a href="#services">Services</a></li>
+                            <li class="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
+                            <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+                            <li class="scroll-to-section">
+                                <div class="main-blue-button"><a href="#contact">Get Your Quote</a></div>
+                            </li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Company List Start ***** -->
+
+    <body>
+        <!-- ***** Company List Start ***** -->
+        <div class="main-banner" id="top" data-wow-duration="0.5s" data-wow-delay="0.2s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s"
+                                data-wow-delay="1s">
+                                <div class="col-lg-12">
+                                    <h2>Company List</h2>
+                                </div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Company Name</th>
+                                            <th>Company Email</th>
+                                            <th>Company Contact</th>
+                                            <th>Company Address</th>
+                                            <th>Person in Charge</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Sample rows for multiple companies -->
+                                        <tr data-row-id="company1">
+                                            <td>Company 1</td>
+                                            <td>company1@example.com</td>
+                                            <td>123-456-7890</td>
+                                            <td>123 Main St</td>
+                                            <td>John Doe</td>
+                                            <td>
+                                                <button class="view-application-button btn btn-info" data-toggle="modal"
+                                                    data-target="#viewApplicationModal" data-company-name="Company 1"
+                                                    data-company-email="company1@example.com"
+                                                    data-company-contact="123-456-7890"
+                                                    data-company-address="123 Main St"
+                                                    data-person-in-charge="John Doe">View Application</button>
+                                            </td>
+
+                                        </tr>
+                                        <tr data-row-id="company2">
+                                            <td>Company 2</td>
+                                            <td>company2@example.com</td>
+                                            <td>987-654-3210</td>
+                                            <td>456 Elm St</td>
+                                            <td>Jane Smith</td>
+                                            <td>
+                                                <button class="view-application-button btn btn-info" data-toggle="modal"
+                                                    data-target="#viewApplicationModal" data-company-name="Company 2"
+                                                    data-company-email="company2@example.com"
+                                                    data-company-contact="987-654-3210"
+                                                    data-company-address="456 Elm St"
+                                                    data-person-in-charge="Jane Smith">View Application</button>
+                                            </td>
+                                        </tr>
+                                        <!-- Add more rows for additional companies -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Company List End ***** -->
+
+        <!-- View Application Popup -->
+        <div class="modal fade" id="viewApplicationModal" tabindex="-1" role="dialog"
+            aria-labelledby="viewApplicationModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="viewApplicationModalLabel">Company Application Details</h5>
+                        <button type="button" class="close close-button btn-danger" id="closeModalButton"
+                            data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Company details go here -->
+                        <p><strong>Company Name:</strong> <span id="modalCompanyName"></span></p>
+                        <p><strong>Company Email:</strong> <span id="modalCompanyEmail"></span></p>
+                        <p><strong>Company Contact:</strong> <span id="modalCompanyContact"></span></p>
+                        <p><strong>Company Address:</strong> <span id="modalCompanyAddress"></span></p>
+                        <p><strong>Person in Charge:</strong> <span id="modalPersonInCharge"></span></p>
+                        <p><strong>Status:</strong> <span id="modalStatus"></span></p>
+                        <p><strong>Date/Time:</strong> <span id="modalDateTime"></span></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="approve-button btn btn-success">Approve</button>
+                        <button type="button" class="reject-button btn btn-danger">Reject</button>
+                        <button type="button" class="btn btn-secondary" id="closeModalButton2"
+                            data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .modal-header {
+                background-color: #333;
+                color: #fff;
+            }
+
+            .modal-header .close {
+                color: #fff;
+                /* White text color for the X button */
+            }
+
+            .modal-header .close:hover {
+                color: #000;
+                /* Red text color for the X button on hover */
+            }
+
+            .close-button {
+                color: #10a13e;
+                /* Red color for the close button */
+            }
+        </style>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright © 2021 SEO Dream Co., Ltd. All Rights Reserved.
+                            <br>Web Designed by <a rel="nofollow" href="https://templatemo.com"
+                                title="free CSS templates">TemplateMo</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/owl-carousel.js"></script>
+        <script src="assets/js/animation.js"></script>
+        <script src="assets/js/imagesloaded.js"></script>
+        <script src="assets/js/custom.js"></script>
+
+
+        <script>
+            // JavaScript code to open the View Application modal
+            $(document).ready(function () {
+                $('.view-application-button').on('click', function () {
+                    var companyName = $(this).data('company-name');
+                    var companyEmail = $(this).data('company-email');
+                    var companyContact = $(this).data('company-contact');
+                    var companyAddress = $(this).data('company-address');
+                    var personInCharge = $(this).data('person-in-charge');
+
+                    // Populate the modal with company data
+                    $('#modalCompanyName').text(companyName);
+                    $('#modalCompanyEmail').text(companyEmail);
+                    $('#modalCompanyContact').text(companyContact);
+                    $('#modalCompanyAddress').text(companyAddress);
+                    $('#modalPersonInCharge').text(personInCharge);
+
+                    $('#viewApplicationModal').modal('show');
+                });
+            });
+
+            $('#closeModalButton').on('click', function () {
+                $('#viewApplicationModal').modal('hide');
+            });
+
+            $('#closeModalButton2').on('click', function () {
+                $('#viewApplicationModal').modal('hide');
+            });
+        </script>
+    </body>
+</body>
+
+</html>
